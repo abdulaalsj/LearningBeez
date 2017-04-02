@@ -14,6 +14,9 @@
 		B5B646991E913B4600ED4C0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B646971E913B4600ED4C0B /* LaunchScreen.storyboard */; };
 		B5B646A41E913B4700ED4C0B /* LearningBeezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B646A31E913B4700ED4C0B /* LearningBeezTests.swift */; };
 		B5B646AF1E913B4700ED4C0B /* LearningBeezUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B646AE1E913B4700ED4C0B /* LearningBeezUITests.swift */; };
+		B5B646BD1E9148AD00ED4C0B /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B646BC1E9148AD00ED4C0B /* Cell.swift */; };
+		B5B646BF1E91559300ED4C0B /* ListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B646BE1E91559300ED4C0B /* ListPage.swift */; };
+		B5B646C11E915D8400ED4C0B /* EmotionsFlashCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B646C01E915D8400ED4C0B /* EmotionsFlashCards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		B5B646AA1E913B4700ED4C0B /* LearningBeezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningBeezUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B646AE1E913B4700ED4C0B /* LearningBeezUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningBeezUITests.swift; sourceTree = "<group>"; };
 		B5B646B01E913B4700ED4C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5B646BC1E9148AD00ED4C0B /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		B5B646BE1E91559300ED4C0B /* ListPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPage.swift; sourceTree = "<group>"; };
+		B5B646C01E915D8400ED4C0B /* EmotionsFlashCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionsFlashCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				B5B6468E1E913B4600ED4C0B /* AppDelegate.swift */,
 				B5B646901E913B4600ED4C0B /* ViewController.swift */,
 				B5B646921E913B4600ED4C0B /* Main.storyboard */,
+				B5B646C01E915D8400ED4C0B /* EmotionsFlashCards.swift */,
+				B5B646BE1E91559300ED4C0B /* ListPage.swift */,
+				B5B646BC1E9148AD00ED4C0B /* Cell.swift */,
 				B5B646951E913B4600ED4C0B /* Assets.xcassets */,
 				B5B646971E913B4600ED4C0B /* LaunchScreen.storyboard */,
 				B5B6469A1E913B4600ED4C0B /* Info.plist */,
@@ -261,7 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5B646911E913B4600ED4C0B /* ViewController.swift in Sources */,
+				B5B646C11E915D8400ED4C0B /* EmotionsFlashCards.swift in Sources */,
 				B5B6468F1E913B4600ED4C0B /* AppDelegate.swift in Sources */,
+				B5B646BF1E91559300ED4C0B /* ListPage.swift in Sources */,
+				B5B646BD1E9148AD00ED4C0B /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
