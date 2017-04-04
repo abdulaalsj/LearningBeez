@@ -13,30 +13,27 @@ class EmotionsFlashCards: UIViewController {
     @IBOutlet weak var picture: UIImageView!
     
     let imageTitle:String = "emotion_"
+    var taps:Int = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        var pictureName:String =  self.imageTitle + "0"
+
+        let pictureName:String =  self.imageTitle + String(self.taps)
 
         
         if #available(iOS 10.0, *) {
-            let timer:Timer = Timer.scheduledTimer(withTimeInterval: 10, repeats: false) { (time) in
-                
-                
                 self.picture.image = UIImage(named: pictureName )
             }
-        } else {
+        else {
             // Fallback on earlier versions
             
             print("NOT AVAILABLE")
         }
-        
-        
-        
-        
-    }
+
+        }
+
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -44,6 +41,18 @@ class EmotionsFlashCards: UIViewController {
     }
     
 
+    @IBAction func didTapScreen(_ sender: Any) {
+        if(self.taps >= 2 ){
+            self.taps = 0
+        }else {
+            self.taps = self.taps + 1
+        }
+        
+        let tapString: String = String(self.taps)
+        self.picture.image = UIImage(named: self.imageTitle + tapString)
+        
+        
+    }
     /*
     // MARK: - Navigation
 
