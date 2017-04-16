@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HoneycombViewController.swift
 //  LearningBeez
 //
 //  Created by Sumer Abdulaal on 4/2/17.
@@ -7,11 +7,17 @@
 //
 
 import UIKit
+import FirebaseDatabase
 
-class ViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class HoneycombViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
     let data:[String]=["Hello", "World!"]
+    var ref: FIRDatabaseReference!
     
+    
+    var imagePicker: UIImagePickerController!
+
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var collectionView: UICollectionView!
 
     override func viewDidLoad() {
@@ -22,9 +28,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         self.collectionView.backgroundColor = UIColor.clear
         self.collectionView.backgroundView = UIView.init(frame: CGRect.zero)
         
-        
-        
-        
+        ref = FIRDatabase.database().reference()
         
         
     }
@@ -48,6 +52,34 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         return cell
     }
+
+    
+    
+    
+    /*
+     Start picture methods
+     */
+    
+    @IBAction func didPressTakePicture(_ sender: Any) {
+        imagePicker =  UIImagePickerController()
+        imagePicker.delegate = self
+        imagePicker.sourceType = UIImagePickerControllerSourceType.camera
+        
+        self.present(imagePicker, animated: true, completion: nil)
+        
+        
+    }
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        imagePicker.dismiss(animated: true, completion: nil)
+        imageView.image = info[UIImagePickerControllerOriginalImage] as? UIImage
+    }
+    
+    
+    /*
+     end picture methods
+     */
+
     
 
 }
