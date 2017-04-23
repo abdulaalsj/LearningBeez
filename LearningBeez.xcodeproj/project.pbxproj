@@ -12,6 +12,19 @@
 		6C00840B2CDCAF59B7165782 /* Pods_LearningBeezUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0703135EFA11763BA5437A /* Pods_LearningBeezUITests.framework */; };
 		B51FE1791EA3E8670091BEBA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B51FE1781EA3E8660091BEBA /* GoogleService-Info.plist */; };
 		B51FE17B1EA3E9150091BEBA /* sign_inViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51FE17A1EA3E9150091BEBA /* sign_inViewController.swift */; };
+		B5236AB61EA992C9008A3DBD /* emotion_0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5236AB31EA992C9008A3DBD /* emotion_0.mp3 */; };
+		B5236AB71EA992C9008A3DBD /* emotion_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5236AB41EA992C9008A3DBD /* emotion_1.mp3 */; };
+		B5236AB81EA992C9008A3DBD /* emotion_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5236AB51EA992C9008A3DBD /* emotion_4.mp3 */; };
+		B5236AD21EAB10F2008A3DBD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5236AD11EAB10F2008A3DBD /* AVFoundation.framework */; };
+		B5236AD91EAC3268008A3DBD /* emotion_11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5236AD31EAC3268008A3DBD /* emotion_11.mp3 */; };
+		B5236ADA1EAC3268008A3DBD /* emotion_10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5236AD41EAC3268008A3DBD /* emotion_10.mp3 */; };
+		B5236ADB1EAC3268008A3DBD /* emotion_9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5236AD51EAC3268008A3DBD /* emotion_9.mp3 */; };
+		B5236ADC1EAC3268008A3DBD /* emotion_8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5236AD61EAC3268008A3DBD /* emotion_8.mp3 */; };
+		B5236ADD1EAC3268008A3DBD /* emotion_7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5236AD71EAC3268008A3DBD /* emotion_7.mp3 */; };
+		B5236ADE1EAC3268008A3DBD /* emotion_6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5236AD81EAC3268008A3DBD /* emotion_6.mp3 */; };
+		B5236AE01EAC3273008A3DBD /* emotion_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5236ADF1EAC3273008A3DBD /* emotion_2.mp3 */; };
+		B5236AE21EAC3278008A3DBD /* emotion_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5236AE11EAC3278008A3DBD /* emotion_3.mp3 */; };
+		B5236AE41EAC327C008A3DBD /* emotion_5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5236AE31EAC327C008A3DBD /* emotion_5.mp3 */; };
 		B5B6468F1E913B4600ED4C0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B6468E1E913B4600ED4C0B /* AppDelegate.swift */; };
 		B5B646911E913B4600ED4C0B /* HoneycombViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5B646901E913B4600ED4C0B /* HoneycombViewController.swift */; };
 		B5B646941E913B4600ED4C0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B646921E913B4600ED4C0B /* Main.storyboard */; };
@@ -53,6 +66,19 @@
 		9BE290A3CA1128C760A84B8D /* Pods_LearningBeez.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningBeez.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B51FE1781EA3E8660091BEBA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B51FE17A1EA3E9150091BEBA /* sign_inViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sign_inViewController.swift; sourceTree = "<group>"; };
+		B5236AB31EA992C9008A3DBD /* emotion_0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = emotion_0.mp3; sourceTree = "<group>"; };
+		B5236AB41EA992C9008A3DBD /* emotion_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = emotion_1.mp3; sourceTree = "<group>"; };
+		B5236AB51EA992C9008A3DBD /* emotion_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = emotion_4.mp3; sourceTree = "<group>"; };
+		B5236AD11EAB10F2008A3DBD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B5236AD31EAC3268008A3DBD /* emotion_11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = emotion_11.mp3; path = ../../emotion_11.mp3; sourceTree = "<group>"; };
+		B5236AD41EAC3268008A3DBD /* emotion_10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = emotion_10.mp3; path = ../../emotion_10.mp3; sourceTree = "<group>"; };
+		B5236AD51EAC3268008A3DBD /* emotion_9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = emotion_9.mp3; path = ../../emotion_9.mp3; sourceTree = "<group>"; };
+		B5236AD61EAC3268008A3DBD /* emotion_8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = emotion_8.mp3; path = ../../emotion_8.mp3; sourceTree = "<group>"; };
+		B5236AD71EAC3268008A3DBD /* emotion_7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = emotion_7.mp3; path = ../../emotion_7.mp3; sourceTree = "<group>"; };
+		B5236AD81EAC3268008A3DBD /* emotion_6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = emotion_6.mp3; path = ../../emotion_6.mp3; sourceTree = "<group>"; };
+		B5236ADF1EAC3273008A3DBD /* emotion_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = emotion_2.mp3; path = ../../emotion_2.mp3; sourceTree = "<group>"; };
+		B5236AE11EAC3278008A3DBD /* emotion_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = emotion_3.mp3; path = ../../emotion_3.mp3; sourceTree = "<group>"; };
+		B5236AE31EAC327C008A3DBD /* emotion_5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = emotion_5.mp3; path = ../../emotion_5.mp3; sourceTree = "<group>"; };
 		B5B6468B1E913B4600ED4C0B /* LearningBeez.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningBeez.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5B6468E1E913B4600ED4C0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5B646901E913B4600ED4C0B /* HoneycombViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneycombViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5236AD21EAB10F2008A3DBD /* AVFoundation.framework in Frameworks */,
 				4FB8139169420E77AB697725 /* Pods_LearningBeez.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,6 +129,7 @@
 		1321B464CCF466152137A4AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B5236AD11EAB10F2008A3DBD /* AVFoundation.framework */,
 				9BE290A3CA1128C760A84B8D /* Pods_LearningBeez.framework */,
 				427A2390E1BAF1332D67A06E /* Pods_LearningBeezTests.framework */,
 				2C0703135EFA11763BA5437A /* Pods_LearningBeezUITests.framework */,
@@ -120,6 +148,25 @@
 				91280E8F72E7F95C08899449 /* Pods-LearningBeezUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B5236AB21EA991F7008A3DBD /* music */ = {
+			isa = PBXGroup;
+			children = (
+				B5236AB31EA992C9008A3DBD /* emotion_0.mp3 */,
+				B5236AB41EA992C9008A3DBD /* emotion_1.mp3 */,
+				B5236ADF1EAC3273008A3DBD /* emotion_2.mp3 */,
+				B5236AE11EAC3278008A3DBD /* emotion_3.mp3 */,
+				B5236AB51EA992C9008A3DBD /* emotion_4.mp3 */,
+				B5236AE31EAC327C008A3DBD /* emotion_5.mp3 */,
+				B5236AD81EAC3268008A3DBD /* emotion_6.mp3 */,
+				B5236AD71EAC3268008A3DBD /* emotion_7.mp3 */,
+				B5236AD61EAC3268008A3DBD /* emotion_8.mp3 */,
+				B5236AD51EAC3268008A3DBD /* emotion_9.mp3 */,
+				B5236AD41EAC3268008A3DBD /* emotion_10.mp3 */,
+				B5236AD31EAC3268008A3DBD /* emotion_11.mp3 */,
+			);
+			name = music;
 			sourceTree = "<group>";
 		};
 		B5B646821E913B4600ED4C0B = {
@@ -153,6 +200,7 @@
 				B5B646921E913B4600ED4C0B /* Main.storyboard */,
 				B5B646C01E915D8400ED4C0B /* EmotionsFlashCards.swift */,
 				B5B646BE1E91559300ED4C0B /* ListPage.swift */,
+				B5236AB21EA991F7008A3DBD /* music */,
 				B5B646BC1E9148AD00ED4C0B /* Cell.swift */,
 				B5B646951E913B4600ED4C0B /* Assets.xcassets */,
 				B5B646971E913B4600ED4C0B /* LaunchScreen.storyboard */,
@@ -297,10 +345,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5236ADD1EAC3268008A3DBD /* emotion_7.mp3 in Resources */,
+				B5236AD91EAC3268008A3DBD /* emotion_11.mp3 in Resources */,
 				B5B646991E913B4600ED4C0B /* LaunchScreen.storyboard in Resources */,
 				B51FE1791EA3E8670091BEBA /* GoogleService-Info.plist in Resources */,
 				B5B646961E913B4600ED4C0B /* Assets.xcassets in Resources */,
+				B5236AE01EAC3273008A3DBD /* emotion_2.mp3 in Resources */,
+				B5236AE21EAC3278008A3DBD /* emotion_3.mp3 in Resources */,
+				B5236ADB1EAC3268008A3DBD /* emotion_9.mp3 in Resources */,
+				B5236AB61EA992C9008A3DBD /* emotion_0.mp3 in Resources */,
+				B5236AB71EA992C9008A3DBD /* emotion_1.mp3 in Resources */,
+				B5236AE41EAC327C008A3DBD /* emotion_5.mp3 in Resources */,
+				B5236ADE1EAC3268008A3DBD /* emotion_6.mp3 in Resources */,
+				B5236AB81EA992C9008A3DBD /* emotion_4.mp3 in Resources */,
 				B5B646941E913B4600ED4C0B /* Main.storyboard in Resources */,
+				B5236ADC1EAC3268008A3DBD /* emotion_8.mp3 in Resources */,
+				B5236ADA1EAC3268008A3DBD /* emotion_10.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

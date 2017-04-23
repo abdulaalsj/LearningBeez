@@ -11,7 +11,7 @@ import FirebaseDatabase
 
 class HoneycombViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UINavigationControllerDelegate, UIImagePickerControllerDelegate {
     
-    let data:[String]=["Hello", "World!"]
+    let data:[String]=["Hello"]
     var ref: FIRDatabaseReference!
     
     
@@ -58,7 +58,7 @@ class HoneycombViewController: UIViewController, UICollectionViewDelegate, UICol
     
     /*
      Start picture methods
-     */
+ 
     
     @IBAction func didPressTakePicture(_ sender: Any) {
         imagePicker =  UIImagePickerController()
@@ -76,7 +76,7 @@ class HoneycombViewController: UIViewController, UICollectionViewDelegate, UICol
     }
     
     
-    /*
+    
      end picture methods
      */
 

@@ -54,7 +54,7 @@ class sign_inViewController: UIViewController,FBSDKLoginButtonDelegate {
         let credential = FIRFacebookAuthProvider.credential(withAccessToken: FBSDKAccessToken.current().tokenString)
         FIRAuth.auth()?.signIn(with: credential) { (user, error) in
             // ...
-            if let error = error {
+            if error != nil {
                 // ...
                 return
             }

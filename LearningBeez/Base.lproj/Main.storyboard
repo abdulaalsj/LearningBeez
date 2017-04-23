@@ -61,56 +61,36 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                             </imageView>
                             <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="fpW-9S-I4S">
-                                <rect key="frame" x="207" y="151" width="610" height="430"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="760"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="VH2-Om-uhF">
-                                    <size key="itemSize" width="254" height="209"/>
+                                    <size key="itemSize" width="972" height="754"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="honeyComb" id="zDl-pl-Z4R" customClass="Cell" customModule="LearningBeez" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="254" height="209"/>
+                                        <rect key="frame" x="26" y="0.0" width="972" height="754"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="254" height="209"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="972" height="754"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cell" translatesAutoresizingMaskIntoConstraints="NO" id="44p-CV-8RV">
-                                                    <rect key="frame" x="8" y="8" width="238" height="193"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="honeycomb1" translatesAutoresizingMaskIntoConstraints="NO" id="Gj7-Vu-7UG">
+                                                    <rect key="frame" x="8" y="61" width="928" height="524"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                             </subviews>
                                         </view>
-                                        <constraints>
-                                            <constraint firstItem="44p-CV-8RV" firstAttribute="leading" secondItem="zDl-pl-Z4R" secondAttribute="leadingMargin" id="Spf-bH-Uhu"/>
-                                            <constraint firstAttribute="bottomMargin" secondItem="44p-CV-8RV" secondAttribute="bottom" id="bpc-eh-5KD"/>
-                                            <constraint firstAttribute="trailingMargin" secondItem="44p-CV-8RV" secondAttribute="trailing" id="czT-CG-dw8"/>
-                                            <constraint firstItem="44p-CV-8RV" firstAttribute="top" secondItem="zDl-pl-Z4R" secondAttribute="topMargin" id="pbm-31-4MH"/>
-                                        </constraints>
                                         <connections>
                                             <segue destination="8QE-RK-Wey" kind="show" id="agz-hn-6Ah"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zeg-BG-gXr">
-                                <rect key="frame" x="366" y="571" width="293" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
-                                <state key="normal" title="Take Picture">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="didPressTakePicture:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1mY-ap-n9j"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sm1-A4-EgY">
-                                <rect key="frame" x="764" y="20" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -122,7 +102,6 @@
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="fpW-9S-I4S" id="OkO-jE-S2N"/>
-                        <outlet property="imageView" destination="sm1-A4-EgY" id="BT4-47-Rbz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -181,7 +160,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nol-Qx-WZr">
-                                <rect key="frame" x="392" y="256" width="230" height="192"/>
+                                <rect key="frame" x="85" y="85" width="854" height="598"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                             </imageView>
@@ -209,6 +188,6 @@
     <resources>
         <image name="Artboard 2" width="16" height="16"/>
         <image name="EmotionsButton" width="411" height="99"/>
-        <image name="cell" width="771" height="776"/>
+        <image name="honeycomb1" width="1695" height="1006"/>
     </resources>
 </document>
